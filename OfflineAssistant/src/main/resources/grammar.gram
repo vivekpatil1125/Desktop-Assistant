@@ -1,0 +1,22 @@
+#JSGF V1.0;
+grammar grammar;
+
+public <command> = 
+    (open | launch | start) <application> |
+    (volume up | volume down | mute volume) |
+    (shutdown | restart) computer |
+    (cancel | abort) shutdown |
+    (exit | quit | close) |
+    help;
+
+<application> = 
+    chrome | 
+    notepad | 
+    calculator | 
+    file explorer | 
+    command prompt | 
+    cmd | 
+    terminal | 
+    settings | 
+    music | 
+    spotify;
